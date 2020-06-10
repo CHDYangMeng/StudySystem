@@ -1,0 +1,2 @@
+cd /d "%~dp0"
+javaw -jar jdwy_js.jar --spring.profiles.active=produce --mariframe.file-upload-path=%~dp0image\ --mariframe.excel-temp=%~dp0excelTemp\ --database.path=%~dp0database_backup\ --database.databaseName="jdwy_js" --server.port=9000 >> jdwy_js.log 2>&1 &

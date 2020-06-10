@@ -1,0 +1,2 @@
+cd /d "%~dp0"
+javaw -jar gsbz.jar --spring.profiles.active=produce --.file-upload-path=%~dp0image\ --gsbz.standard_store=%~dp0pdf\ --database.path=%~dp0database_backup\ --database.databaseName="gsbz" --server.port=9000 >> gsbz.log 2>&1 &gsbz
